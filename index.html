@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">我的主页</div>
+                <ul class="nav-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 首页部分 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="avatar">
+                    <div class="avatar-circle">👤</div>
+                </div>
+                <h1 class="name">张三</h1>
+                <p class="title">前端开发工程师</p>
+                <p class="description">热爱编程，专注于创造优秀的用户体验</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">联系我</a>
+                    <a href="#about" class="btn btn-secondary">了解更多</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于部分 -->
+        <section id="about" class="about">
+            <div class="section-content">
+                <h2 class="section-title">关于我</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>我是一名充满热情的前端开发工程师，专注于构建现代化、响应式的网页应用。</p>
+                        <p>拥有丰富的项目经验，擅长将设计转化为优雅的代码实现。我热爱学习新技术，不断提升自己的技能水平。</p>
+                        <p>在业余时间，我喜欢阅读技术博客、参与开源项目，并与社区分享知识。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能部分 -->
+        <section id="skills" class="skills">
+            <div class="section-content">
+                <h2 class="section-title">技能</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>前端技术</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>框架</h3>
+                        <p>React, Vue, Angular</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>设计工具</h3>
+                        <p>Figma, Photoshop</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>开发工具</h3>
+                        <p>Git, Webpack, Vite</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系部分 -->
+        <section id="contact" class="contact">
+            <div class="section-content">
+                <h2 class="section-title">联系我</h2>
+                <div class="contact-content">
+                    <p class="contact-text">欢迎与我取得联系，让我们一起创造美好的项目！</p>
+                    <div class="contact-links">
+                        <a href="mailto:example@email.com" class="contact-link">
+                            <span class="contact-icon">📧</span>
+                            <span>邮箱</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>&copy; 2024 个人主页. 保留所有权利.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
